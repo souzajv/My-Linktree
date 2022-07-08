@@ -13,15 +13,13 @@ body {
     flex-direction: column;
     justify-content: center;
 }
-svg {
+.linkslogo {
     display: inline-block;
-    height: 2em;
-    overflow: visible;
+    height: 25px;
     vertical-align: -.125em;
     display: center;
-    fill: aliceblue;
-    width: 2em;
-    margin-right: 5px;
+    margin-right: 10px;
+    border-radius: 30%;
 }
 #perfil {
     height: 120px;
