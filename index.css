@@ -1,0 +1,63 @@
+body {
+    background:url("./Background.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    font-size: 12px;
+    text-shadow: 0 0 10px black;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+svg {
+    display: inline-block;
+    height: 2em;
+    overflow: visible;
+    vertical-align: -.125em;
+    display: center;
+    fill: aliceblue;
+    width: 2em;
+    margin-right: 5px;
+}
+#perfil {
+    height: 120px;
+    border-radius: 50%;
+}
+#sub {
+    text-shadow: 0 0 7px black;
+    margin-bottom: 37px;
+    margin-top: -20px;
+}
+#resumo {
+    text-shadow: 0 0 7px black;
+    font-style: oblique;
+    margin-bottom: 37px;
+}
+ul li a {
+    color: aliceblue;
+    display: inline-flex;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    text-decoration: none;
+    border: 1px solid aliceblue;
+    border-radius: 6px;
+    width: 120px;
+    padding: 2px;
+    transition: 400ms;
+}
+ul li:last-child a {
+    margin-bottom: 0;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul li a:hover {
+    background: rgba(0, 0, 0, 0.459);
+}
