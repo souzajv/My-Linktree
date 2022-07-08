@@ -6,12 +6,12 @@ body {
     text-align: center;
     font-family: 'Space Mono', monospace;
     font-size: 12px;
-    text-shadow: 0 0 10px black;
     margin: 0;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-shadow: 0 0 2px black;
 }
 .linkslogo {
     display: inline-block;
@@ -22,18 +22,19 @@ body {
     border-radius: 30%;
 }
 #perfil {
+    margin-top: 25px;
+    margin-bottom: -15px;
     height: 120px;
     border-radius: 50%;
 }
 #sub {
-    text-shadow: 0 0 7px black;
-    margin-bottom: 37px;
+    margin-bottom: 30px;
     margin-top: -20px;
 }
 #resumo {
-    text-shadow: 0 0 7px black;
     font-style: oblique;
-    margin-bottom: 37px;
+    margin-bottom: 10px;
+    padding: 0 500px;
 }
 ul li a {
     color: aliceblue;
@@ -49,12 +50,12 @@ ul li a {
     padding: 2px;
     transition: 400ms;
 }
-ul li:last-child a {
-    margin-bottom: 0;
-}
 ul {
     list-style: none;
     padding: 0;
+}
+ul li:last-child a {
+    margin-bottom: 0;
 }
 ul li a:hover {
     background: rgba(0, 0, 0, 0.459);
