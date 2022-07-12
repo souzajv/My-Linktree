@@ -15,11 +15,10 @@ body {
 }
 .linkslogo {
     display: inline-block;
-    height: 25px;
+    height: 20px;
     vertical-align: -.125em;
     display: center;
-    margin-right: 10px;
-    border-radius: 30%;
+    margin-right: 5px;
 }
 #perfil {
     margin-top: 25px;
