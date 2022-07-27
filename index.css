@@ -13,48 +13,58 @@ body {
     justify-content: center;
     text-shadow: 0 0 2px black;
 }
+
 .linkslogo {
     display: inline-block;
-    height: 20px;
-    vertical-align: -.125em;
+    height: 16px;
+    vertical-align: middle;
     display: center;
-    margin-right: 5px;
+    margin-right: 8px;
 }
+
 #perfil {
-    margin-top: 25px;
-    margin-bottom: -15px;
+    margin-top: 24px;
+    margin-bottom: -16px;
     height: 120px;
     border-radius: 50%;
+    border: 3px solid aliceblue;
 }
+
 #sub {
-    margin-bottom: 30px;
-    margin-top: -20px;
+    margin-bottom: 32px;
+    margin-top: -16px;
 }
+
 #resumo {
     font-style: oblique;
-    margin-bottom: 10px;
+    margin-bottom: 32px;
 }
+
 ul li a {
     color: aliceblue;
     display: inline-flex;
-    height: 45px;
+    height: 40px;
     align-items: center;
     justify-content: center;
-    margin-bottom: 15px;
+    margin-bottom: 16px;
     text-decoration: none;
     border: 1px solid aliceblue;
-    border-radius: 6px;
+    border-radius: 8px;
     width: 120px;
     padding: 2px;
     transition: 400ms;
 }
+
 ul {
+    margin-top: 16px;
     list-style: none;
     padding: 0;
 }
+
 ul li:last-child a {
     margin-bottom: 0;
 }
+
 ul li a:hover {
     background: rgba(0, 0, 0, 0.459);
 }
